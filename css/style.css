@@ -7,6 +7,12 @@
   --team-color: #f4f4fd;
   --portfolio-button: #e7e9fc;
 }
+/*
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}*/
 body {
   font-family: "Roboto", sans-serif;
   background-color: var(--white-color);
@@ -18,8 +24,24 @@ body {
 .list {
   list-style: none;
 }
-
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
 /*header*/
+.container {
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
 .header-logo {
   color: var(--akcent-color);
   font-family: "Raleway", sans-serif;
