@@ -148,7 +148,8 @@ li {
   display: flex;
   gap: 24px;
   flex-direction: row;
-  padding: 120px 0 120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .plus-li {
   width: calc((100% - 72px) / 4);
