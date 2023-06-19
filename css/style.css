@@ -148,11 +148,13 @@ li {
   display: flex;
   gap: 24px;
   flex-direction: row;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
+
 .plus-li {
   width: calc((100% - 72px) / 4);
+}
+.section-plus {
+  padding: 120px 0 120px;
 }
 .visually-hidden {
   position: absolute;
